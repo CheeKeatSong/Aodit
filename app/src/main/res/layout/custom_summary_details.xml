@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <org.eazegraph.lib.charts.PieChart xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/piechart"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="10dp"
+                app:egAutoCenter="true"
+                app:egInnerValueUnit="%"
+                app:egLegendTextSize="18sp"
+                app:egOpenClockwise="false"
+                app:egUsePieRotation="true"
+                app:egValueTextSize="36sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_primary"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="2dp"
+                    android:text="@string/total_expenditure"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/large_text_size" />
+
+                <TextView
+                    android:id="@+id/txtExpenditure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="2dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/large_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="2dp"
+                    android:text="@string/set_budget"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/large_text_size" />
+
+                <TextView
+                    android:id="@+id/txtBudget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="2dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/large_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="2dp"
+                    android:text="@string/remaining"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/large_text_size" />
+
+                <TextView
+                    android:id="@+id/txtRemaining"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="2dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/large_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

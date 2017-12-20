@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#256D89</color>
+    <color name="color_primary_dark">#4AA2c2</color>
+    <color name="color_primary_text">@android:color/black</color>
+    <color name="color_accent">#E0E0DF</color>
+    <color name="color_highlight">#1CAC58</color>
+    <color name="color_secondary_dark">#1BA895</color>
+    <color name="redButton">#EC1C24</color>
+
+    <color name="tabs_primary">#4AA2c2</color>
+    <color name="tabs_secodary">#27B99A</color>
+    <color name="red">#EC1C24</color>
+
+    <!-- For Dashboard -->
+    <color name="color_hue">#EF626C</color>
+    <color name="color_dark">#197E88</color>
+    <color name="color_tetiary">#2274A5</color>
+    <color name="color_warm">#FDBE10</color>
+    <color name="color_cool">#C2518F</color>
+    <color name="color_light">#2bB899</color>
+</resources>

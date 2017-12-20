@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.point2points.aodit.Home.activity.HomeActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/empty_photo"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtLogoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgLogo"
+        android:layout_centerHorizontal="true"
+        android:text="@string/aodit"
+        android:textColor="@color/color_primary_text"
+        android:textSize="@dimen/banner_text" />
+</RelativeLayout>

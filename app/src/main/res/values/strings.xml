@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Aodit</string>
+    <string name="aodit">AODIT</string>
+    <!--Tabs -->
+    <string-array name="tabs">
+        <item>Receipts</item>
+        <item>Summary</item>
+    </string-array>
+
+    <!-- Activity Names -->
+    <string name="activity_dashboard">Aodit</string>
+
+    <!--Menu-->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- activity login -->
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="forget_password">Forget Password</string>
+
+    <!-- activity photo details -->
+    <string name="selected_category">SELECT CATEGORY</string>
+    <string name="photo">PHOTO</string>
+
+    <!-- acitivity_dashboard-->
+    <string name="new_task">new tasks</string>
+    <string name="you_have">You have</string>
+    <string name="view_all_task">View All Task</string>
+
+    <!-- Receipt Fragment -->
+    <string name="note">Note - </string>
+
+    <!-- Summary Fragment -->
+    <string name="total_expenditure">Total Expenditure :</string>
+    <string name="set_budget">Set Budget \t:</string>
+    <string name="remaining">Remaining \t:</string>
+    <string name="food">FOOD</string>
+    <string name="groceries">GROCERIES</string>
+    <string name="transport">TRANSPORT</string>
+    <string name="utility">UTILITY</string>
+    <string name="other">OTHER</string>
+    <string name="entertaiment">ENTERTAIMENT</string>
+
+    <!-- Provider-->
+    <string name="menu_provider">com.point2points.aodit.menu.provider</string>
+
+    <!--Folder name-->
+    <string name="folder_name">Aodit</string>
+    <string name="temp">Temp</string>
+    <string name="log">Log</string>
+    <string name="picture">Picture</string>
+    <string name="message_image">Message Image</string>
+    <string name="task_attachment">Task Attachment</string>
+
+    <!--Menu-->
+    <string name="action_empty">Empty</string>
+    <string name="action_edit">Edit</string>
+
+    <!--Others-->
+    <string name="on">on</string>
+    <string name="no_file">No File</string>
+    <string name="no_remarks">No Remarks</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="btn_confirm">Confirm</string>
+</resources>

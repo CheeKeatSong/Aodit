@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.point2points.aodit.DashBoard.activity.DashBoardActivity">
+
+    <include
+        android:id="@+id/appBar"
+        layout="@layout/app_bar" />
+
+    <com.point2points.aodit.Tabs.SlidingTabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appBar" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tabs"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <com.sa90.materialarcmenu.ArcMenu
+        android:id="@+id/arcMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        app:layout_behavior="com.point2points.aodit.DashBoard.behaviour.ScrollingArcMenuBehaviour"
+        app:menu_open="arc_left"
+        app:menu_radius="120dp"
+        app:menu_color="@color/tabs_primary"
+        app:menu_scr="@android:drawable/ic_menu_upload">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            app:backgroundTint="@color/tabs_primary"
+            android:src="@mipmap/camera_button" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:backgroundTint="@color/tabs_primary"
+            android:src="@mipmap/manual_btn" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/tabs_primary"
+            android:clickable="true"
+            android:src="@mipmap/library_btn" />
+    </com.sa90.materialarcmenu.ArcMenu>
+</RelativeLayout>
