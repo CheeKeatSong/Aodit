@@ -5,4 +5,4 @@ My team has created an android application - Aodit based on gamification concept
 
 <img src="https://github.com/CheeKeatSong/Aodit/blob/master/image1.png" width="311" height="571">
 
-Note: this is a prototype and was abandoned afterwards.
+Note: this prototype is abandoned.
