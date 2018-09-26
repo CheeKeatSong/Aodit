@@ -19,10 +19,6 @@ Aodit is an android app application based on gamification concept & OCR technolo
 
 <img src="https://github.com/CheeKeatSong/Aodit/blob/master/image1.png" width="311" height="571">
 
-## Library
-
-Tesseract OCR
-
 ## Contributors
 
 1. [Edwin Cheong](https://github.com/edwin-19)
