@@ -25,7 +25,8 @@ Tesseract OCR
 
 ## Contributors
 
-1. [Edwin Cheong](https://github.com/edwin-19).
+1. [Edwin Cheong](https://github.com/edwin-19)
+2. [Ming Feng](#)
 
 ## Note
 
