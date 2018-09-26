@@ -23,6 +23,8 @@ Aodit is an android app application based on gamification concept to assist user
 
 Tesseract OCR
 
+## Contributors
+
 ## Note
 
 This prototype is abandoned.
