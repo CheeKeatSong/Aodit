@@ -25,6 +25,8 @@ Tesseract OCR
 
 ## Contributors
 
+[Edwin Cheong](https://github.com/edwin-19).
+
 ## Note
 
 This prototype is abandoned.
