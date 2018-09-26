@@ -1,7 +1,7 @@
 # Aodit
 This project was created for i-MSC Lab Startup Competition 2016.
 
-Aodit is an android app application based on gamification concept to assist users to keep track their daily expenses in order to attain efficient personal financial management. 
+Aodit is an android app application based on gamification concept & OCR technology to assist users to keep track their daily expenses in order to attain efficient personal financial management. 
 
 ## Features
 
