@@ -22,7 +22,7 @@ Aodit is an android app application based on gamification concept & OCR technolo
 ## Contributors
 
 1. [Edwin Cheong](https://github.com/edwin-19)
-2. [Ming Feng](#)
+2. [Ming Feng](https://github.com/Ming6419)
 
 ## Note
 
